@@ -4,7 +4,7 @@
 Suse linux server 11 SP3 for the experiment
 
 1. Download scripts folder to <PROJECT_HOME>
-2. cd <PROJECT_HOME>
+2. cd <PROJECT_HOME>/script
 3. Launch 3 node on demand medium instances by executing command 
  ./prepare-hdp.sh -v 1.1.0 -k synerzip-bigdata -i /home/synerzip/work/aws/synerzip-bigdata.pem -a ami-88c841e0 -t m3.medium -u ec2-user --ebs-vol-size 8 launch bigdataexpt
 4. Copy all the private ip's , these will be used at later stages
