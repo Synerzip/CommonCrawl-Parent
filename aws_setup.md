@@ -17,7 +17,7 @@ Suse linux server 11 SP3 for the experiment
 	<i>Note: Keep all default settings i.e. just press enter for every option</i>
 8. Start ambari server<br/>
 	<code>ambari-server start</code> <br/>
-9. On Chrome/Firefox Browse : http://<public dns>:8080 to get a login page <br/>
+9. On Chrome/Firefox Browse : http://\<public dns\>:8080 to get a login page <br/>
 10. Use credentials admin/admin <br/>
 11. Enter cluster name e.g bigdataexpt <br/>
 12. Use hostnames copied in step 4 <br/>
