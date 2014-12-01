@@ -46,7 +46,7 @@ Suse linux server 11 SP3 for the experiment
          <code> hadoop fs -put wordcount /tmp/wordcount</code><br/>
 	 <code>./bin/spark-submit --class org.apache.spark.examples.JavaWordCount --master yarn-cluster  --num-executors 3 --driver-memory 512m  --executor-memory 512m   --executor-cores 1  lib/spark-examples*.jar /tmp/wordcount 10 </code> <br/>
 21. Run google advt counter map-reduce job  <br/>
-       <code>hadoop jar GoogleAdsExplorer-MapReduce.jar  com.synerzip.warc.hadoop.CommonCrawlJob  -in  s3n://\<aws access key\>:\<aws secret key\>@aws-publicdatasets/common-crawl/crawl-data/CC-MAIN-2014-35/segments/1408500800767.23/warc/CC-MAIN-20140820021320-00000-ip-10-180-136-8.ec2.internal.warc.gz -out  /home/bigdataexpt/warcData_output_hadoop -accesskey \<access key\> -secretkey  \<secret key\> -overwrite -maxfiles 1</code><br />
+       <code>hadoop jar CommonCrawl-MapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.synerzip.analytics.commoncrawl.googleads.counter.GoogleAdsCounterJob  -in  s3n://\<aws access key\>:\<aws secret key\>@aws-publicdatasets/common-crawl/crawl-data/CC-MAIN-2014-35/segments/1408500800767.23/warc/CC-MAIN-20140820021320-0000[0-4]*.gz -out /user/hdfs/common-crawl/mapr/output -accesskey \<access key\> -secretkey  \<secret key\> -overwrite -maxfiles 5</code><br />
 22. Run Spark code, download spark distribution precompiled for hadoop 2.4 <br />
        <code>wget http://d3kbcqa49mib13.cloudfront.net/spark-1.1.0-bin-hadoop2.4.tgz</code><br />
        <code>tar -xf spark-1.1.0-bin-hadoop2.4.tgz</code><br />
