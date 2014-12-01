@@ -1,7 +1,7 @@
 CommonCrawl-Parent
 =========
 
-CommonCrawl Project has Big Data Programs which run on top of the Common Crawl Dataset (available on AWS S3) to extract certain analytics out of the 500TB Dataset. Apart from extracting the analytics (e.g Usage of Google Ads) from the Dataset, CommonCrawl Synerzip Project also plans to compare Big Data Technologies (e.g MapReduce vs Apache Spark) performances benchmark when extracting such analytics.
+CommonCrawl Project has Big Data Programs which run on top of the Common Crawl Dataset (available on AWS S3, in .gz compressed format) to extract certain analytics out of the 500TB Dataset. Apart from extracting the analytics (e.g Usage of Google Ads) from the Dataset, CommonCrawl Synerzip Project also plans to compare Big Data Technologies (e.g MapReduce vs Apache Spark) performances benchmark when extracting such analytics.
 
 CommonCrawl Metrics
 -----
