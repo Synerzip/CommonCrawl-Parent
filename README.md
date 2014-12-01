@@ -10,14 +10,16 @@ CommonCrawl Metrics
 Google Ads Counter is the Big Data Analytics program which counts how many html pages in the CommonCrawl dataset used google ads and which type of google ads (text, text_image, image etc)
 
 **Analytics Report**
+
 | Run | Dataset Files | Total Web Pages | Google Ads Used | Google Text Ads | Google Text/Image Ads | Google Image Ads |
-----------------------------------------------------------------------------------------------------------------------------
+|-----|---------------|-----------------|-----------------|-----------------|---------------------------|------------------|
 | 1 | TBD | TBD | TBD | TBD | TBD | TBD |
 | 2 | TBD | TBD | TBD | TBD | TBD | TBD | 
 
-**Technology Bench Mark**   
+**Technology Bench Mark**
+   
 | Run | Technology | Dataset Size | Cluster Descr | Total Runtime |
-----------------------------------------------------------------------------------------------------------------------------
+|-----|------------|--------------|---------------|---------------|
 | 1 | Map Reduce | 800MB | 3x AWS Cluster Description | 23 min |
 | 1 | Apache Spark | 800MB | 3x AWS Cluster Description | 28 min |
    
