@@ -20,8 +20,8 @@ Google Ads Counter is the Big Data Analytics program which counts how many html 
    
 | Run | Technology | Dataset Size | Cluster Descr | Total Runtime |
 |-----|------------|--------------|---------------|---------------|
-| 1 | Map Reduce | 800MB | 3x AWS Cluster Description | 23 min |
-| 1 | Apache Spark | 800MB | 3x AWS Cluster Description | 28 min |
+| 1 | Map Reduce | 800MB | 6 xlarge ec2 nodes| 23 min |
+| 1 | Apache Spark | 800MB | 6 xlarge ec2 nodes | 28 min |
    
 
 
@@ -32,23 +32,11 @@ Following are the Common Crawl Projects which are used for extracting analytics 
 * [CommonCrawl-Spark](http://github.com/synerzip/CommonCrawl-Spark) - Contains various Big Data Analytics for CommonCrawl Dataset based on Apache Spark, the newer Big Data Ecosystem
 * [CommonCrawl-Common](http://github.com/synerzip/CommonCrawl-Common) - Contains the common code.
 
-CommonCrawl Hadoop Cluster Setup
---------
-This is the Big Data Experiment we are doing in Synerzip around Common Crawl Database
-
-Setup :
-
-6 xlarge ec2 nodes
-
-Software:
-
-Apache Spark v1.1.0
-HDP 2.4 (Hortonworks Distribution)
-Ambari 1.6
-
 
 How to setup and execute CommonCrawl Project?
 -----
-TBD
-Sumeet - Please convert all other md files to Markdown format (not html) and put links here
+Follow the guides provided below to setup and execute CommonCrawl Big Data Analytics on AWS 
 
+* [Development Environment Guide](http://github.com/synerzip/CommonCrawl-Parent/dev_env_setup.md) - Provides information on how to setup the development environment for Common Crawl BigData Analytics
+* [Setup Guide - Hadoop Cluster on AWS](http://github.com/synerzip/CommonCrawl-Parent/aws_setup.md) - Provides information on how to setup the AWS Hadoop Cluster
+* [Run Guide - Hadoop Cluster on AWS](http://github.com/synerzip/CommonCrawl-Parent/execute_on_aws.md) - Provides information on how to run the MapReduce and Spark code on Hadoop Cluster
