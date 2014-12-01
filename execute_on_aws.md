@@ -12,7 +12,7 @@ copy <code>$PROJECT_HOME/target/GoogleAdsExplorer-MapReduce-0.0.1-SNAPSHOT-jar-w
 
 <li>ssh to aws instance <br/>
  <code>ssh -i $PATH_TO_PEM_FILE ec2-user@$Public_Dns </code><br/>
-<code>hadoop jar CommonCrawl-MapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.synerzip.analytics.commoncrawl.googleads.counter.GoogleAdsCounterJob  -in  s3n://\<aws access key\>:\<aws secret key\>@aws-publicdatasets/common-crawl/crawl-data/CC-MAIN-2014-35/segments/1408500800767.23/warc/CC-MAIN-20140820021320-0000[0-4]*.gz -out /user/hdfs/common-crawl/mapr/output -accesskey \<access key\> -secretkey  \<secret key\> -overwrite -maxfiles 5</code><br /></li>
+<code>hadoop jar CommonCrawl-MapReduce-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.synerzip.analytics.commoncrawl.googleads.counter.GoogleAdsCounterJob  -in  s3n://$aws_access key:$aws_secret key@aws-publicdatasets/common-crawl/crawl-data/CC-MAIN-2014-35/segments/1408500800767.23/warc/CC-MAIN-20140820021320-0000[0-4]*.gz -out /user/hdfs/common-crawl/mapr/output -accesskey $access_key -secretkey  $secret_key  -maxfiles 5</code><br /></li>
 </ol>
 
 
