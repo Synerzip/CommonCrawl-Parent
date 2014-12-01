@@ -37,6 +37,6 @@ How to setup and execute CommonCrawl Project?
 -----
 Follow the guides provided below to setup and execute CommonCrawl Big Data Analytics on AWS 
 
-* [Development Environment Guide](http://github.com/synerzip/CommonCrawl-Parent/dev_env_setup.md) - Provides information on how to setup the development environment for Common Crawl BigData Analytics
-* [Setup Guide - Hadoop Cluster on AWS](http://github.com/synerzip/CommonCrawl-Parent/aws_setup.md) - Provides information on how to setup the AWS Hadoop Cluster
-* [Run Guide - Hadoop Cluster on AWS](http://github.com/synerzip/CommonCrawl-Parent/execute_on_aws.md) - Provides information on how to run the MapReduce and Spark code on Hadoop Cluster
+* [Development Environment Guide](http://github.com/synerzip/CommonCrawl-Parent/blob/master/dev_env_setup.md) - Provides information on how to setup the development environment for Common Crawl BigData Analytics
+* [Setup Guide - Hadoop Cluster on AWS](http://github.com/synerzip/CommonCrawl-Parent/blob/master/aws_setup.md) - Provides information on how to setup the AWS Hadoop Cluster
+* [Run Guide - Hadoop Cluster on AWS](http://github.com/synerzip/CommonCrawl-Parent/blob/master/execute_on_aws.md) - Provides information on how to run the MapReduce and Spark code on Hadoop Cluster
