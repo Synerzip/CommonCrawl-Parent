@@ -13,7 +13,7 @@ Google Ads Counter is the Big Data Analytics program which counts how many html 
 
 | Run | Dataset Files | Total Web Pages | Google Ads Used | Google Text Ads | Google Text/Image Ads | Google Image Ads |
 |-----|---------------|-----------------|-----------------|-----------------|---------------------------|------------------|
-| 1 |20-Aug-2014 (4 files) 217096 pages 3.389 GB [details](file-list/expt1.md) | 217096 | 32351 | 17952 | 13848 | 551 |
+| 1 |20-Aug-2014 (4 files) 217096 pages 3.384 GB [details](file-list/expt1.md) | 217096 | 32351 | 17952 | 13848 | 551 |
 | 2 | TBD | TBD | TBD | TBD | TBD | TBD | 
 
 **Technology Bench Mark** (Placeholder Data)
