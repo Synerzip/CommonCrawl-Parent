@@ -21,7 +21,7 @@ Google Ads Counter is the Big Data Analytics program which counts how many html 
 | Run | Technology | Dataset Size | Cluster Descr | Total Runtime |
 |-----|------------|--------------|---------------|---------------|
 | 1 | Map Reduce | 3.3 GB | 6 xlarge ec2 nodes| 5.6 min |
-| 1 | Apache Spark | 800MB | 6 xlarge ec2 nodes | 2 min |
+| 1 | Apache Spark | 3.3 GB | 6 xlarge ec2 nodes | 2.3 min |
    
 
 
